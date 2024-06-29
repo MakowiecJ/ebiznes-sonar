@@ -1,0 +1,30 @@
+.header {
+    background-color: #f0f0f0;
+    padding: 20px 0;
+}
+
+.navigation {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.navigation-item {}
+
+.navigation-link {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.navigation-link:hover {
+    color: #007bff;
+}

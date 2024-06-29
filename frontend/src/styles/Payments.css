@@ -1,0 +1,32 @@
+.purchase-history-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.purchase-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.purchase-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+
+.purchase-info {
+    padding: 15px;
+    background-color: #f9f9f9;
+}
+
+.purchase-date, .purchase-total {
+    margin: 5px 0;
+}
+
+.no-purchase {
+    color: #999;
+    text-align: center;
+}
