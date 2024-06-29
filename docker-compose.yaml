@@ -11,7 +11,7 @@ services:
 
   zadanie4:
     build:
-      context: ./zadanie4
+      context: ./backend
     ports:
       - "8080:8080"
     environment:
